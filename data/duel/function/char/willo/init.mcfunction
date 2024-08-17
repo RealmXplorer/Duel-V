@@ -1,1 +1,1 @@
-scoreboard players set @s char 2
+#scoreboard players set @s char 2
