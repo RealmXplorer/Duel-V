@@ -1,4 +1,6 @@
 ##This function only runs if a player hits another player. (Runs as the player that is dealing damage)
+
+#End Function
 advancement revoke @s only duel:hit_player
 
 #Set current player to this player

@@ -1,5 +1,4 @@
 ##This function only runs if a player kills another player (runs as the player doing the killing)
-
 #End function
 advancement revoke @s only duel:kill
 

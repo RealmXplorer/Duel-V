@@ -1,2 +1,2 @@
 #Run "hit/player" for selected character
-function duel:char/$(char)/hit/player
+$function duel:char/$(char)/hit/player

@@ -7,3 +7,4 @@ execute store result storage duel:main player.current int 1 run scoreboard playe
 
 #Find player
 execute at @s run function duel:char/all/hit/any/find with storage duel:main player
+
