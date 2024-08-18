@@ -1,0 +1,1 @@
+say Willo killed player

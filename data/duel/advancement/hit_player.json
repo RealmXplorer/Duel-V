@@ -1,0 +1,33 @@
+{
+  "criteria": {
+
+      "damage": {
+
+          "trigger": "minecraft:player_hurt_entity",
+
+          "conditions": {
+
+              "entity": {
+
+                  "type": "minecraft:player"
+
+              }
+
+          }
+
+      }
+
+  },
+    "requirements": [
+        [
+            "damage"
+        ]
+    ],
+
+  "rewards": {
+
+      "function": "duel:char/all/hit/player/init"
+
+  }
+
+}
