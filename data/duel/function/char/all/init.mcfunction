@@ -1,5 +1,5 @@
 #Run character specific functions using current player's storage.
-$function duel:char/all/character with storage duel:player$(current) character
+#$function duel:char/all/character with storage duel:player$(current) character
 
 
 #Pick Character
