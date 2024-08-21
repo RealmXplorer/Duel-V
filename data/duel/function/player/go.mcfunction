@@ -5,7 +5,7 @@ execute store result storage duel:main player.current int 1 run scoreboard playe
 execute unless entity @s[scores={playerNum=1..}] run function duel:player/init
 
 #Run player character functions if they have number using current selected player's number
-execute if entity @s[scores={playerNum=1..}] run function duel:char/all/init with storage duel:main player
+execute if entity @s[scores={playerNum=1..,char=1..},tag=menu] run function duel:char/all/select with storage duel:main player
 
 
 #Character specific stuff
